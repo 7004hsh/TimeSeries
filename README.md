@@ -12,5 +12,6 @@ personal 폴더 안에 개인 코드를 첨부해 두었습니다.<br/>
 GA_GA로 GRU GA 과정을 따로 분리했습니다.<br/>
 gdcana.py는 GC/DC 표와 추이를 보는 코드이며,<br/>
 gdcrr은 이 결과를 바탕으로 profit을 계산하는 코드입니다.<br/>
+yahoo.py는 전체 코드의 main.py와 동일하게 메인 역할을 하는 파이썬 파일입니다.<br/>
 <br/>
 감사합니다.
