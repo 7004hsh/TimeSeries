@@ -165,7 +165,8 @@ def create_ESN_sequences(data, seq_length):
 
 
 # 4. 정규화 ('Anomaly' 컬럼 포함)
-features = ['Close', 'MA7', 'MA14', 'MA50', 'RSI', 'MACD_Line', 'MACD_Signal', 'MACD_Hist', 'Anomaly']
+features = ['Close', 'MA7', 'MA14', 'MA50', 'RSI', 'MACD_Line',
+            'MACD_Signal', 'MACD_Hist', 'Anomaly']
 num_features = len(features)
 full_scaler = MinMaxScaler()
 scaled_full = full_scaler.fit_transform(df[features])
