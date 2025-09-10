@@ -148,3 +148,4 @@ if __name__ == "__main__":
     with open("best_gru_config.json", "w") as f:
         json.dump(best_config, f, indent=2)
     print("✅ 저장 완료: best_gru_config.json")
+##
